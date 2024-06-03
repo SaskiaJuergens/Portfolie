@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff;
+    color: #333;
+}
+header {
+    background-color: #008cba;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+}
+nav a {
+    color: white;
+    padding: 1em;
+    text-decoration: none;
+    text-align: center;
+}
+nav a:hover {
+    background-color: #575757;
+}
+.container {
+    padding: 2em;
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+.gallery img {
+    width: 100%;
+    height: auto;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+}
+.project {
+    margin-top: 2em;
+}
+.project img, .project video {
+    max-width: 100%;
+    height: auto;
+}
+.contact-form {
+    max-width: 600px;
+    margin: auto;
+}
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 1em;
+    margin: 0.5em 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.contact-form button {
+    padding: 1em 2em;
+    background-color: #008cba;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}

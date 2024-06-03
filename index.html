@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mein Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="css/index_StyleSheet.css" />
+</head>
+<body>
+    <header>
+        <h1>Willkommen zu meinem Portfolio</h1>
+    </header>
+    <nav>
+        <a href="#about">Über mich</a>
+        <a href="#projects">Projekte</a>
+        <a href="#contact">Kontakt</a>
+    </nav>
+    <div class="container" id="about">
+        <h2>Über mich</h2>
+        <img src="dein-foto.jpg" alt="Mein Foto" style="width:200px;border-radius:50%;">
+        <p>Hallo, ich bin Saskia Jürgens. Ich bin eine kreative Person, die gerne zeichnet, tanzt, bastelt und programmiert. Hier ist ein kurzer Überblick über meinen Lebenslauf:</p>
+        <ul>
+            <li><strong>Bildung:</strong> [Deine Ausbildung]</li>
+            <li><strong>Berufserfahrung:</strong> [Deine Berufserfahrung]</li>
+            <li><strong>Fähigkeiten:</strong> Zeichnen, Tanzen, Basteln, Programmieren</li>
+        </ul>
+    </div>
+    <div class="container" id="projects">
+        <h2>Projekte</h2>
+        <div class="gallery">
+            <a href="#project1"><img src="projekt1-thumbnail.jpg" alt="Furious-Fruits"></a>
+            <a href="#project2"><img src="projekt2-thumbnail.jpg" alt="Cyber Run"></a>
+            <a href="#project3"><img src="projekt3-thumbnail.jpg" alt="Memorie Webapplication"></a>
+            <a href="#project4"><img src="projekt4-thumbnail.jpg" alt="Medusa's Blick"></a>
+            <a href="#project5"><img src="projekt5-thumbnail.jpg" alt="Zeitreise Uhr"></a>
+        </div>
+        <div class="project" id="project1">
+            <h3>Furious-Fruits</h3>
+            <p>Beschreibung des Projekts 1. <a href="https://github.com/SaskiaJuergens/Furious-Fruits.git">GitHub-Link</a></p>
+            <img src="projekt1-foto.jpg" alt="Projekt 1 Foto">
+            <video controls>
+                <source src="projekt1-video.mp4" type="video/mp4">
+                Dein Browser unterstützt das Video-Tag nicht.
+            </video>
+        </div>
+        <div class="project" id="project2">
+            <h3>Cyber Run</h3>
+            <p>Beschreibung des Projekts 2. <a href="https://github.com/SaskiaJuergens/Cyber-Run.git">GitHub-Link</a></p>
+            <img src="projekt2-foto.jpg" alt="Projekt 2 Foto">
+            <video controls>
+                <source src="projekt2-video.mp4" type="video/mp4">
+                Dein Browser unterstützt das Video-Tag nicht.
+            </video>
+        </div>
+        <div class="project" id="project3">
+            <h3>Memorie Webapplication</h3>
+            <p>Beschreibung des Projekts 3. <a href="https://github.com/SaskiaJuergens/Webapplication.git">GitHub-Link</a></p>
+            <img src="projekt3-foto.jpg" alt="Projekt 3 Foto">
+            <video controls>
+                <source src="projekt3-video.mp4" type="video/mp4">
+                Dein Browser unterstützt das Video-Tag nicht.
+            </video>
+        </div>
+        <div class="project" id="project4">
+            <h3>Medusa's Blick</h3>
+            <p>Dieses VR-Spiel wurde in einer 5 Gruppe in der Unreal Engine entwickelt. Dabei jeder sich um eine der Welten gekümmert. 
+                Ich habe mich um die erste Welt, die Wolkenwelt für Hermes und Athenes Temple gekümmert. Die Temple und die Wolken sind von mir in Blender modelliert worden.
+                Zudem habe ich die Gamelogik und Interaktions porgrammiert via Blueprints für alle Welten. Auch die Medusa, in der letzten Welte habe ich in Blender geabaut.<a href="https://github.com/femkey/gruppenprojekt23.git">GitHub-Link</a></p>
+            <img src="projekt4-foto.jpg" alt="Projekt 4 Foto">
+            <video controls>
+                <source src="projekt4-video.mp4" type="video/mp4">
+                Dein Browser unterstützt das Video-Tag nicht.
+            </video>
+        </div>
+        <div class="project" id="project5">
+            <h3>Zeitreise Uhr</h3>
+            <p>Arduino und Unity Projekt.<a href="https://github.com/SaskiaJuergens/Zeitreise-AR-Uhr.git">GitHub-Link</a></p>
+            <img src="projekt5-foto.jpg" alt="Projekt 5 Foto">
+            <video controls>
+                <source src="projekt5-video.mp4" type="video/mp4">
+                Dein Browser unterstützt das Video-Tag nicht.
+            </video>
+        </div>
+    </div>
+    <div class="container" id="contact">
+        <h2>Kontakt</h2>
+        <form class="contact-form" action="mailto:saskia.key@web.de" method="post" enctype="text/plain">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">E-Mail:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Nachricht:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <button type="submit">Senden</button>
+        </form>
+    </div>
+</body>
+</html>
