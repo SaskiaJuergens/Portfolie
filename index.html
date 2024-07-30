@@ -15,73 +15,191 @@
         <a href="#projects">Projekte</a>
         <a href="#contact">Kontakt</a>
     </nav>
-    <div class="container" id="about">
-        <h2>Über mich</h2>
-        <img src="dein-foto.jpg" alt="Mein Foto" style="width:200px;border-radius:50%;">
-        <p>Hallo, ich bin Saskia Jürgens. Ich bin eine kreative Person, die gerne zeichnet, tanzt, bastelt und programmiert. Hier ist ein kurzer Überblick über meinen Lebenslauf:</p>
-        <ul>
-            <li><strong>Bildung:</strong> [Deine Ausbildung]</li>
-            <li><strong>Berufserfahrung:</strong> [Deine Berufserfahrung]</li>
-            <li><strong>Fähigkeiten:</strong> Zeichnen, Tanzen, Basteln, Programmieren</li>
-        </ul>
+    <div class="container" id="about" style="display: flex; flex-wrap: wrap;">
+        <div style="flex: 1;">
+                    <h2>Über mich</h2>
+        <p>Hallo, ich bin Saskia Jürgens, eine kreative Person, die gerne zeichnet, tanzt, bastelt und programmiert. Hier ist ein kurzer Überblick über meinen Lebenslauf und einige meiner Projekte:</p>
+            <ul>
+                <li><strong>Geburstdatum:</strong> 21.08.2021 </li>
+                <li><strong>Bildung:</strong>
+                    <ul>
+                        <li>Seit Oktober 2021 Studium der Digitalen Medien an der Universität Bremen;</li>
+                        <li>2016-2021 Syke Gymnasium;</li>
+                        <li>2011-2016 Hildegard-von-Bingen-Gymnasium in Twistringen;</li>
+                        <li>2007-2011 Grundschule Scharrendorf in Twistringen;</li>
+                    </ul>
+                </li>
+                <li><strong>Berufserfahrung:</strong>
+                    <ul>
+                        <li>Praktika:</li>
+                        <ul>
+                            <li>Praktikum als Eventmanager (14.01.-25.01.2019),</li>
+                            <li>Hospitation im Kindergarten St. Marien (03.09.2021);</li>
+                        </ul>
+                        <li>Berufserfahrung:</li>
+                        <ul>
+                            <li>Babysitter (2015-2020),</li>
+                            <li>DHL-Postbote (25.06.2021-01.10.2021 und von 01.01.2021-31.12.2021 in Teilzeit),</li>
+                            <li>Wahlhelfer bei der Kommunalwahl (12.09.2021),</li>
+                            <li>Betreuer einer Schulklasse für Höffmansreisen (09.09.2022-16.09.2022),</li>
+                            <li>Geringfügig beschäftigte Kassiererin in der Rewe-Filiale (13.05.2024-28.07.2024)</li>
+                        </ul>
+                    </ul>
+                </li> 
+                <li><strong>Fähigkeiten:</strong> Zeichnen, Tanzen, Basteln, Programmieren</li>
+            </ul>
+        </div>
+        <div class="me" id="me" style="margin-left: 1px;">
+            <img src="Fotos/Me.jpg" alt="Mein Foto" style="width:330px;border-radius:50%;">
+        </div> 
     </div>
     <div class="container" id="projects">
         <h2>Projekte</h2>
         <div class="gallery">
-            <a href="#project1"><img src="projekt1-thumbnail.jpg" alt="Furious-Fruits"></a>
-            <a href="#project2"><img src="projekt2-thumbnail.jpg" alt="Cyber Run"></a>
-            <a href="#project3"><img src="projekt3-thumbnail.jpg" alt="Memorie Webapplication"></a>
-            <a href="#project4"><img src="projekt4-thumbnail.jpg" alt="Medusa's Blick"></a>
-            <a href="#project5"><img src="projekt5-thumbnail.jpg" alt="Zeitreise Uhr"></a>
+            <a href="#project1"><img src="Fotos/H.png" alt="Furious-Fruits"> Furious Fruits</a>
+            <a href="#project2"><img src="Fotos/icon2.png" alt="Cyber Run"> Cyber Run</a>
+            <a href="#project3"><img src="Fotos/Webapplication-Thumb.png" alt="Memorie Webapplication"> Memorie Webapplication</a>
+            <a href="#project4"><img src="Fotos/MeduasBlick_icon.png" alt="Medusa's Blick"> Medusa's Blick</a>
+            <a href="#project5"><img src="Fotos/Zeitreise-Thumb.jpg" alt="Zeitreise Uhr"> Zeitreise Uhr</a>
+            <a href="#project6"><img src="Fotos/Dojo-Thumb.png" alt="Dojo Website"> Dojo Website</a>
+            <a href="#project7"><img src="Fotos/Blender-Logo-Transparent-PNG.png" alt="Blender Projekte"> Blender Projekte</a>
         </div>
+        <br><br><br><br><br>
         <div class="project" id="project1">
-            <h3>Furious-Fruits</h3>
-            <p>Beschreibung des Projekts 1. <a href="https://github.com/SaskiaJuergens/Furious-Fruits.git">GitHub-Link</a></p>
-            <img src="projekt1-foto.jpg" alt="Projekt 1 Foto">
-            <video controls>
-                <source src="projekt1-video.mp4" type="video/mp4">
+            <div class="thumb">
+                <h3>Furious-Fruits</h3>
+                <img src="Fotos/H.png" alt="Thumbnail des Processing Multiplayer Game 'Furious Fruits'" width="70" height="70">
+            </div>
+            <p>Ein Gruppenprojekt zu Dritt zu Begin des Studiums mit dem Program Processing.
+                Ein Local Multiplayer Game inspiriert vom Bomber Game in SpielAffe.
+            </p> <p> <a href="https://github.com/SaskiaJuergens/Furious-Fruits.git">GitHub-Link</a></p>
+            <p><img src="Fotos/Furious_fruits Game Design via Krita.jpg" alt="Design Package Bild" width="200" height="200"></p>
+            <video width="640" height="360" controls>
+                <source src="Fotos/Furious_Fruit-2PlayerGame.mp4" type="video/mp4">
                 Dein Browser unterstützt das Video-Tag nicht.
             </video>
         </div>
+        <br><br><br>
         <div class="project" id="project2">
-            <h3>Cyber Run</h3>
-            <p>Beschreibung des Projekts 2. <a href="https://github.com/SaskiaJuergens/Cyber-Run.git">GitHub-Link</a></p>
-            <img src="projekt2-foto.jpg" alt="Projekt 2 Foto">
-            <video controls>
-                <source src="projekt2-video.mp4" type="video/mp4">
+            <div class="thumb">
+                <h3>Cyber Run</h3>
+                <img src="Fotos/icon2.png" alt="Thumbnail des Unreal Engine Game 'Cyber Run'" width="70" height="70">
+            </div>
+            <p>Ein Unreal Engine Projekt, welches Pac-Man ähnliche Spiellogik beinhalten, welches in einer Monat programmiert werden sollte. </p> <p> <a href="https://github.com/SaskiaJuergens/Cyber-Run.git">GitHub-Link</a></p>
+            <video width="640" height="360" controls>
+                <source src="Fotos/CyberRun_UnrealGame.mp4" type="video/mp4">
                 Dein Browser unterstützt das Video-Tag nicht.
             </video>
         </div>
+        <br><br><br>
         <div class="project" id="project3">
-            <h3>Memorie Webapplication</h3>
-            <p>Beschreibung des Projekts 3. <a href="https://github.com/SaskiaJuergens/Webapplication.git">GitHub-Link</a></p>
-            <img src="projekt3-foto.jpg" alt="Projekt 3 Foto">
-            <video controls>
-                <source src="projekt3-video.mp4" type="video/mp4">
-                Dein Browser unterstützt das Video-Tag nicht.
-            </video>
+            <div class="thumb">
+                <h3>Memorie Webapplication</h3>
+                <img src="Fotos/Webapplication-Thumb.png" alt="Thumbnail des Projektes der Memorie Webapplication" width="70" height="70">
+            </div>
+            <p>Entwicklung eines Online-Memory-Spiels mit Datenbank.                
+                Damit die Webapplikation funktioniert, muss der/die Nutzer/in zunächst die
+                mitgelieferte Datenbank in Xampp hochladen. Die Daten werden in pHpMyAdmin
+                unter omemory gespeichert. Lesen Sie die ReadMe im GitHub Ordner für mehr Informationen.</p> 
+                <p><a href="https://github.com/SaskiaJuergens/Webapplication.git">GitHub-Link</a></p>
+            <img src="Fotos/Webapplication.png" alt="Screenshot der Memorie Website" width="200" height="200">
         </div>
+        <br><br><br>
         <div class="project" id="project4">
-            <h3>Medusa's Blick</h3>
+            <div class="thumb">
+                <h3>Medusa's Blick</h3>
+                <img src="Fotos/MeduasBlick_icon.png" alt="Thumbnail des VR Games 'Medusas's Blick" width="70" height="70">
+            </div>
             <p>Dieses VR-Spiel wurde in einer 5 Gruppe in der Unreal Engine entwickelt. Dabei jeder sich um eine der Welten gekümmert. 
                 Ich habe mich um die erste Welt, die Wolkenwelt für Hermes und Athenes Temple gekümmert. Die Temple und die Wolken sind von mir in Blender modelliert worden.
-                Zudem habe ich die Gamelogik und Interaktions porgrammiert via Blueprints für alle Welten. Auch die Medusa, in der letzten Welte habe ich in Blender geabaut.<a href="https://github.com/femkey/gruppenprojekt23.git">GitHub-Link</a></p>
-            <img src="projekt4-foto.jpg" alt="Projekt 4 Foto">
-            <video controls>
-                <source src="projekt4-video.mp4" type="video/mp4">
-                Dein Browser unterstützt das Video-Tag nicht.
-            </video>
+                Zudem habe ich die Gamelogik und Interaktions porgrammiert via Blueprints für alle Welten. Auch die Medusa, in der letzten Welte habe ich in Blender geabaut. </p> 
+                <p> <a href="https://github.com/femkey/gruppenprojekt23.git">GitHub-Link</a></p>
+                <img src="Fotos/Screenshot (403).png" alt="Projekt 5 Foto" width="170" height="170">
+                <img src="Fotos/Screenshot (404).png" alt="Projekt 5 Foto" width="170" height="170">
+                <img src="Fotos/Screenshot (405).png" alt="Projekt 5 Foto" width="170" height="170">
+                <p><a href="Fotos/SS23_Medusa_Dokumentation.pdf" target="_blank">PDF-Datei: Projekt Diary</a></p>
+                <div>
+                    <video width="640" height="360" controls>
+                        <source src="Fotos/Trailer.mp4" type="video/mp4">
+                        Dein Browser unterstützt das Video-Tag nicht.
+                    </video>
+                </div>
         </div>
+        <br><br><br>
         <div class="project" id="project5">
-            <h3>Zeitreise Uhr</h3>
-            <p>Arduino und Unity Projekt.<a href="https://github.com/SaskiaJuergens/Zeitreise-AR-Uhr.git">GitHub-Link</a></p>
-            <img src="projekt5-foto.jpg" alt="Projekt 5 Foto">
-            <video controls>
-                <source src="projekt5-video.mp4" type="video/mp4">
+            <div class="thumb">
+                <h3>Zeitreise Uhr</h3>
+                <img src="Fotos/Zeitreise-Thumb.jpg" alt="Thumbnail des Projektes mit der Zeitreise-Ar Uhr" width="70" height="70">
+            </div>
+            <p>Arduino und Unity Projekt: </p> <p><a href="https://github.com/SaskiaJuergens/Zeitreise-AR-Uhr.git">GitHub-Link</a></p>
+            <img src="Fotos/IMG-20240324-WA0000_edit_116616424212933.jpg" alt="Projekt 5 Foto" width="170" height="170">
+            <img src="Fotos/IMG_20240401_194133.jpg" alt="Projekt 5 Foto" width="170" height="170">
+            <p><a href="Fotos/Zeitsteuernde Uhr.pdf" target="_blank">PDF-Datei: Projekt Diary</a></p>
+            <div>
+                <video width="640" height="360" controls>
+                    <source src="Fotos/Taschenuhr-Trailer.mp4" type="video/mp4">
+                    Dein Browser unterstützt das Video-Tag nicht.
+                </video>
+            </div>
+        </div>
+        <br><br><br>
+        <div class="project" id="project6">
+            <div class="thumb">
+                <h3>Dojo Website</h3>
+                <img src="Fotos/Dojo-Thumb.png" alt="Thumbnail des Projektes der Dojo Website" width="70" height="70">
+            </div>
+            <p>Der Leiter des Bushin Dojo in Twistringen bat mich um eine Website, die beim Wettbewerb im Schnellbogenschießen helfen kann.
+                Der Leiter kann die Teilnehmer hinzufügen und die Wertung eintragen und dann werden die Punkte ausgerechnet.
+                Zudem kann die Seite die Wertungbögen für jeden hinzugefügen Teilnehmer mit dessen individuellen Daten ausdrucken.
+                Das kann man nur mit Zugangsdaten, damit nicht jeder die Inhalte verändert. Aber als Gast kann man die Inhalte zwar nicht bearbeiten, aber trotzdem sehen.
+                Die Daten werden mittels Firebase gespeichert und ausgegeben. </p> <p><a href="https://github.com/SaskiaJuergens/Dojo.git">GitHub-Link</a></p>
+            <p>Link zur Website: <a href="https://saskiajuergens.github.io/Dojo/">Dojo Website</a></p>
+            <p>QR-Code zur Website: <img src="Fotos/QR-Dojo.png" alt="QR-Code" width="150" height="150"></p>
+        </div>
+        <br><br><br>
+        <div class="project" id="project7">
+            <div class="thumb">
+                <h3>Blender Projekte</h3>
+                <img src="Fotos/Blender-Logo-Transparent-PNG.png" alt="Thumbnail des Projektes der Dojo Website" width="70" height="70">
+            </div>
+            <!--<p> <a href="https://github.com/SaskiaJuergens/Blender.git">GitHub-Link</a></p>-->
+            <p>
+                <div style="display: flex; flex-wrap: wrap; gap: 10px;">
+                    <div style="text-align: center;">
+                        <img src="Fotos/OriginalCharacters via Krita.gif" alt="Meine Animation" style="width:200px;">
+                        <p style="font-size: 12px; margin: 5px 0 0 0;">Gif 17.09.2021</p>
+                    </div>
+                    <div style="text-align: center;">
+                        <img src="Fotos/Scifi City via Blender.png" alt="Blender SciFi City" width="360" height="360">
+                        <p style="font-size: 12px; margin: 5px 0 0 0;">SciFi City 12.11.2021</p>
+                    </div>
+                    <div style="text-align: center;">
+                        <img src="Fotos/Shader_Can2.png" alt="Blender SciFi City" width="360" height="360">
+                        <p style="font-size: 12px; margin: 5px 0 0 0;">2D Shading Study 26.07.2024</p>
+                    </div>
+                </div>   
+            </p>
+            <div style="display: flex; flex-wrap: wrap; gap: 10px;">
+                <div style="text-align: center;">
+                    <video width="360" height="180" controls>
+                        <source src="Fotos/Project2-via-Blender.mp4" type="video/mp4">
+                        Dein Browser unterstützt das Video-Tag nicht.
+                    </video>
+                    <p style="font-size: 12px; margin: 5px 0 0 0;">Animation Study 16.06.2022</p>
+                </div>
+                <div style="text-align: center;">
+                    <video width="360" height="180" controls>
+                <source src="Fotos/SciFiLoop2.0.mp4" type="video/mp4">
+                
                 Dein Browser unterstützt das Video-Tag nicht.
             </video>
+            <p style="font-size: 12px; margin: 5px 0 0 0;">Loop-Animation  24.11.2022</p>
+                </div>
+            </div> 
         </div>
     </div>
+    <br><br><br>
+
     <div class="container" id="contact">
         <h2>Kontakt</h2>
         <form class="contact-form" action="mailto:saskia.key@web.de" method="post" enctype="text/plain">

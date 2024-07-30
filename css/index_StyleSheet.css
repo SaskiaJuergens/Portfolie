@@ -35,6 +35,7 @@ nav a:hover {
 .container h2 {
     border-bottom: 2px solid #00c6ff;
     padding-bottom: 0.5em;
+    font-size: xx-large;
 }
 .about {
     display: flex;
@@ -102,3 +103,23 @@ nav a:hover {
 .contact-form button:hover {
     background-color: #005bb5;
 }
+
+.project h3 {
+    font-size: x-large;
+}
+.thumb h3, img {
+    display: inline-block;
+    vertical-align: middle; /* Richtet die Elemente vertikal aus */
+  }
+.thumb h3 {
+    margin-bottom: -35px;
+    text-decoration: underline double;
+}
+.thumb img {
+    margin-left: 10px; /* Abstand zwischen Titel und Bild */
+  }
+
+  .gallery a{
+    width: 100px;
+    height: 100px;
+  }
